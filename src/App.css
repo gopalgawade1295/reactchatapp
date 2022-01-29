@@ -1,5 +1,52 @@
 .App {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  padding: 20px;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 10px 10px;
+}
+
+.container {
   text-align: center;
+}
+
+.col-6 {
+  padding: 20px;
+}
+
+.MessageContainer {
+  height: 300px;
+}
+
+.Message {
+  display: flex;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent h6 {
+  color: white;
+  background-color: #2196F3;
+  padding: 10px;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.received h6 {
+  color: white;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .App-logo {
